@@ -1,4 +1,18 @@
-node_modules
+# Dependencies
+node_modules/
+
+# Environment variables
 .env
-dist
+.env.local
+.env.*.local
+
+# Production builds
+dist/
+build/
+
+# Logs
+*.log
+
+# System files
 .DS_Store
+Thumbs.db
